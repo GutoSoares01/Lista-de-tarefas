@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', serif;
+}
+body{
+    background-color:#bed4c9;
+}
+main{
+   height: 500px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lista{
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: #80a6cc;
+    padding: 15px 20px;
+}
+.lista h2{
+    color: #fff;
+    text-align: center;
+}
+.lista-conteudo{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.lista-conteudo input{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    outline: none;
+}
+.lista-conteudo button{
+    border-radius: 5px;
+    border: none;
+    background-color:#07d82a;
+    font-weight: 600;
+    padding: 5px;
+    color: #fff;
+    width: 50%;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.resultado{
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: auto;
+    height: 250px;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    margin:10px 15px 20px 30px;
+}
+li{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+}
+.checked{
+    text-decoration: line-through;
+    color: #a9a9a9;
+}
